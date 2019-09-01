@@ -6,6 +6,8 @@ import FourColGrid from '../elements/FourColGrid/FourColGrid';
 import LoadMoreBtn from '../elements/LoadMoreBtn/LoadMoreBtn';
 import MovieThumb from '../elements/MovieThumb/MovieThumb';
 import Spinner from '../elements/Spinner/Spinner';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 import './Home.css';
 
 class Home extends Component {
@@ -25,7 +27,7 @@ class Home extends Component {
             this.setState({...state});
         } else {
             this.setState({ loading: true });
-            const endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US&page=1`;
+            const endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US&page=1`;            
             this.fetchItems(endpoint);
         }
         
@@ -66,10 +68,10 @@ class Home extends Component {
     fetchItems = (endpoint) => {
         fetch(endpoint)
         .then(result=> result.json())
-        .then(result => {
+        .then(result => {        
            this.setState({
             movies: [...this.state.movies, ...result.results],
-            heroImage: this.state.heroImage || result.results[0],
+            heroImage: this.state.heroImage || result.results.slice(0,5),
             loading: false,
             currentPage: result.page,
             totalPages: result.total_pages,
@@ -89,11 +91,20 @@ class Home extends Component {
             <div className="rmdb-home">
             {heroImage ?
                <div>
-                 <HeroImage 
-                   image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${heroImage.backdrop_path}`}
-                   title={heroImage.original_title}
-                   text={heroImage.overview}
-                 />
+                   <Carousel showThumbs = {false} autoPlay = {true}>
+                       {heroImage.map((result, index) => {
+                           return (
+                            <HeroImage  key = {index}
+                                image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${result.backdrop_path}`}
+                                title={result.original_title}
+                                movieId={result.id}
+                                clickable={true}
+                                text={result.overview}
+                             />
+                           )
+                       })}
+                   </Carousel>
+                 
                  <SearchBar callback={this.searchItems}/>
                </div> : null }
                 <div className="rmdb-home-grid">
