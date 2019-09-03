@@ -1,15 +1,15 @@
 {
-  "main.css": "/rmdbmovie/static/css/main.f497fac1.chunk.css",
-  "main.js": "/rmdbmovie/static/js/main.ea2f0d8a.chunk.js",
-  "main.js.map": "/rmdbmovie/static/js/main.ea2f0d8a.chunk.js.map",
-  "static/css/1.d834e5aa.chunk.css": "/rmdbmovie/static/css/1.d834e5aa.chunk.css",
-  "static/js/1.a90efa40.chunk.js": "/rmdbmovie/static/js/1.a90efa40.chunk.js",
-  "static/js/1.a90efa40.chunk.js.map": "/rmdbmovie/static/js/1.a90efa40.chunk.js.map",
-  "runtime~main.js": "/rmdbmovie/static/js/runtime~main.3bce71fc.js",
-  "runtime~main.js.map": "/rmdbmovie/static/js/runtime~main.3bce71fc.js.map",
-  "static/css/main.f497fac1.chunk.css.map": "/rmdbmovie/static/css/main.f497fac1.chunk.css.map",
-  "static/css/1.d834e5aa.chunk.css.map": "/rmdbmovie/static/css/1.d834e5aa.chunk.css.map",
-  "index.html": "/rmdbmovie/index.html",
-  "precache-manifest.c4c164e1a85836f42346ed1a7ef69e2c.js": "/rmdbmovie/precache-manifest.c4c164e1a85836f42346ed1a7ef69e2c.js",
-  "service-worker.js": "/rmdbmovie/service-worker.js"
+  "main.css": "/rmdbmovie.github.io/static/css/main.f497fac1.chunk.css",
+  "main.js": "/rmdbmovie.github.io/static/js/main.ea2f0d8a.chunk.js",
+  "main.js.map": "/rmdbmovie.github.io/static/js/main.ea2f0d8a.chunk.js.map",
+  "static/css/1.d834e5aa.chunk.css": "/rmdbmovie.github.io/static/css/1.d834e5aa.chunk.css",
+  "static/js/1.a90efa40.chunk.js": "/rmdbmovie.github.io/static/js/1.a90efa40.chunk.js",
+  "static/js/1.a90efa40.chunk.js.map": "/rmdbmovie.github.io/static/js/1.a90efa40.chunk.js.map",
+  "runtime~main.js": "/rmdbmovie.github.io/static/js/runtime~main.d90ef26e.js",
+  "runtime~main.js.map": "/rmdbmovie.github.io/static/js/runtime~main.d90ef26e.js.map",
+  "static/css/main.f497fac1.chunk.css.map": "/rmdbmovie.github.io/static/css/main.f497fac1.chunk.css.map",
+  "static/css/1.d834e5aa.chunk.css.map": "/rmdbmovie.github.io/static/css/1.d834e5aa.chunk.css.map",
+  "index.html": "/rmdbmovie.github.io/index.html",
+  "precache-manifest.368640253e2a3527b5e4687f0f063b80.js": "/rmdbmovie.github.io/precache-manifest.368640253e2a3527b5e4687f0f063b80.js",
+  "service-worker.js": "/rmdbmovie.github.io/service-worker.js"
 }
