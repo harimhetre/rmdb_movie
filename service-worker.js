@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/rmdbmovie.github.io/precache-manifest.7757eb7c81a502b42471d9e409c712d8.js"
+  "/rmdbmovie.github.io/precache-manifest.368640253e2a3527b5e4687f0f063b80.js"
 );
 
 workbox.clientsClaim();
