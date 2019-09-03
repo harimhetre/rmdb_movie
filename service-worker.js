@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/rmdbmovie.github.io/precache-manifest.368640253e2a3527b5e4687f0f063b80.js"
+  "/reactmovie/precache-manifest.e715da797b415cb0ac1d477c6d458f06.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/rmdbmovie.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/reactmovie/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

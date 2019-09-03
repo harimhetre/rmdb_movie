@@ -1,15 +1,15 @@
 {
-  "main.css": "/rmdbmovie.github.io/static/css/main.f497fac1.chunk.css",
-  "main.js": "/rmdbmovie.github.io/static/js/main.ea2f0d8a.chunk.js",
-  "main.js.map": "/rmdbmovie.github.io/static/js/main.ea2f0d8a.chunk.js.map",
-  "static/css/1.d834e5aa.chunk.css": "/rmdbmovie.github.io/static/css/1.d834e5aa.chunk.css",
-  "static/js/1.a90efa40.chunk.js": "/rmdbmovie.github.io/static/js/1.a90efa40.chunk.js",
-  "static/js/1.a90efa40.chunk.js.map": "/rmdbmovie.github.io/static/js/1.a90efa40.chunk.js.map",
-  "runtime~main.js": "/rmdbmovie.github.io/static/js/runtime~main.d90ef26e.js",
-  "runtime~main.js.map": "/rmdbmovie.github.io/static/js/runtime~main.d90ef26e.js.map",
-  "static/css/main.f497fac1.chunk.css.map": "/rmdbmovie.github.io/static/css/main.f497fac1.chunk.css.map",
-  "static/css/1.d834e5aa.chunk.css.map": "/rmdbmovie.github.io/static/css/1.d834e5aa.chunk.css.map",
-  "index.html": "/rmdbmovie.github.io/index.html",
-  "precache-manifest.368640253e2a3527b5e4687f0f063b80.js": "/rmdbmovie.github.io/precache-manifest.368640253e2a3527b5e4687f0f063b80.js",
-  "service-worker.js": "/rmdbmovie.github.io/service-worker.js"
+  "main.css": "/reactmovie/static/css/main.f497fac1.chunk.css",
+  "main.js": "/reactmovie/static/js/main.ea2f0d8a.chunk.js",
+  "main.js.map": "/reactmovie/static/js/main.ea2f0d8a.chunk.js.map",
+  "static/css/1.d834e5aa.chunk.css": "/reactmovie/static/css/1.d834e5aa.chunk.css",
+  "static/js/1.a90efa40.chunk.js": "/reactmovie/static/js/1.a90efa40.chunk.js",
+  "static/js/1.a90efa40.chunk.js.map": "/reactmovie/static/js/1.a90efa40.chunk.js.map",
+  "runtime~main.js": "/reactmovie/static/js/runtime~main.fd74171f.js",
+  "runtime~main.js.map": "/reactmovie/static/js/runtime~main.fd74171f.js.map",
+  "static/css/1.d834e5aa.chunk.css.map": "/reactmovie/static/css/1.d834e5aa.chunk.css.map",
+  "static/css/main.f497fac1.chunk.css.map": "/reactmovie/static/css/main.f497fac1.chunk.css.map",
+  "index.html": "/reactmovie/index.html",
+  "precache-manifest.e715da797b415cb0ac1d477c6d458f06.js": "/reactmovie/precache-manifest.e715da797b415cb0ac1d477c6d458f06.js",
+  "service-worker.js": "/reactmovie/service-worker.js"
 }
